@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora en Tiempo Real</title>
+</head>
+<body>
+  <h2>Calculadora </h2>
+  <form id="calculatorForm">
+    <label>Ingrese primer:</label>
+    <input type="text" id="primero" name="primero"><br><br>
+    <label>Segundo número:</label>
+    <input type="text" id="segundo" name="segundo"><br><br>
+    <button type="button" onclick="calculate('sum')">Suma</button>
+    <button type="button" onclick="calculate('rest')">Resta</button>
+    <button type="button" onclick="calculate('mult')">Multiplicación</button>
+    <button type="button" onclick="calculate('div')">División</button>
+    <label>Resultado:</label>
+    <input type="text" id="result" name="result" readonly><br><br>
+  </form>
+  <script src="parcial.js"></script>
+</body>
+</html>
